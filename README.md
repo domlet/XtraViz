@@ -1,6 +1,15 @@
-# XtraMath Dashboard — GitHub Pages (local CSV)
+# XtraViz XtraMath Dashboard (local CSV)
 
-A static HTML/JavaScript dashboard where teachers can upload a CSV to see insights. No student data is exposed to the Internet – because you export data from XtraMath and load it locally, like this:
+This is a browser-based dashboard where teachers can upload a local CSV to see insights. Student data is never uploaded or exposed to the Internet.
+
+## How to Use
+
+1. Log into XtraMath as OUSD teacher.
+2. Export data for all classes.
+3. Go to https://domlet.github.io/XtraViz
+4. Upload your CSV to see insights.
+
+See how:
 
 <img src="demo_csv.gif" alt="Animated GIF showing export and import process in 19 seconds." style="border: 1px solid black;">
 
