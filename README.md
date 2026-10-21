@@ -1,6 +1,6 @@
 # XtraViz XtraMath Dashboard (local CSV)
 
-This is a browser-based dashboard where teachers can upload a local CSV to see insights. Student data is never uploaded or exposed to the Internet.
+This is a browser-based dashboard where [teachers can upload a local CSV](https://domlet.github.io/XtraViz/) to see insights. Student data is never uploaded or exposed to the Internet.
 
 ## How to Use
 
