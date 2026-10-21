@@ -1,13 +1,6 @@
 # XtraMath Dashboard — GitHub Pages (local CSV)
 
-A static HTML/JavaScript dashboard. **No server, Node.js, packages, or CSV in the repository are required.**
-
-## Deploy
-
-1. Create a GitHub repository.
-2. Upload `index.html` and `.nojekyll` to the repository root. **Do not upload real student CSVs.**
-3. Go to **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, then Save.
-4. Open the published Pages URL. Select your XtraMath CSV using **Choose File**.
+A static HTML/JavaScript dashboard where teachers can upload a CSV to see insights.
 
 ## Supported CSV format
 
