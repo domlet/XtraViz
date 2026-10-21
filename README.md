@@ -1,10 +1,13 @@
 # XtraMath Dashboard — GitHub Pages (local CSV)
 
-A static HTML/JavaScript dashboard where teachers can upload a CSV to see insights.
+A static HTML/JavaScript dashboard where teachers can upload a CSV to see insights. No student data is exposed to the Internet – because you export data from XtraMath and load it locally, like this:
+
+<img src="demo_csv.gif" alt="Animated GIF showing export and import process in 19 seconds." style="border: 1px solid black;">
+
 
 ## Supported CSV format
 
-XtraMath exports with columns `code_name`, `Operation`, `Placement Fluency Score`, `Current Fluency Score`, `Number of Quizzes`, optionally `Class`/`Section`. Supports grouped exports with single-cell section header rows, and operation labels such as `Addition (3s)`. Quoted CSV fields and UTF-8 are supported.
+XtraMath exports with columns `Operation`, `Placement Fluency Score`, `Current Fluency Score`, `Number of Quizzes`, optionally `Class`/`Section`. Supports grouped exports with single-cell section header rows, and operation labels such as `Addition (3s)`. Quoted CSV fields and UTF-8 are supported.
 
 ## Privacy
 
@@ -13,3 +16,7 @@ The CSV is read using the browser's File API. There are no network requests in t
 ## Rankings
 
 Progress leaderboard: furthest operation reached, then fluency score at that operation. Growth & practice: 70% percentile ranking of summed score improvements, 30% percentile ranking of quiz volume. Quizzes are a proxy for activity, **not verified daily practice consistency**.
+
+## AI Attribution
+
+@domlet made this with ChatGPT in Fall 2026.
